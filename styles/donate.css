@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* header-css */
+header{
+    width: 1600px;
+    height: 1000px;
+    background-image: url(../images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-title{
+    margin-left: 500px;
+    padding-top: 400px;
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    margin-right: 500px;
+}
+#header-description{
+    margin-left: 550px;
+    margin-right: 550px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+.header-button{
+    margin-left: 700px;
+    padding: 13px 30px;
+    color: white;
+    background-color:brown;
+    border-style: none;
+    border-radius: 5px;
+}
+.header-button:hover{
+    background-color: chocolate;
+}
+
+/* Donate-today */
+.donate-title{
+    margin-top: 150px;
+    margin-left: 650px;
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 15px;
+}
+.donate-description{
+    margin-left: 550px;
+    margin-right: 490px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.donate-amount{
+    display: flex;
+    margin-left: 500px;
+}
+.donate-paragraph{
+    margin-right: 20px;
+    width: 50px;
+    padding: 25px 25px;
+    background-color: antiquewhite;
+    margin-bottom: 50px;
+}
+#donate-taka{
+    margin-left: 700px;
+    margin-bottom: 30px;
+}
+.donate-plan-section{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 220px;
+}
+.donate-plan-section img{
+    width: 70px;
+    padding: 20px 30px;
+}
+.donate-plan-section article{
+    width: 330px;
+    margin-right: 50px;
+    background-color: antiquewhite;
+}
+.donate-plan-section h4{
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.donate-plan-section p{
+    padding: 20px 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+/* donation-section */
+.donation-section{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 220px;
+    margin-right: 250px;
+}
+.donation-section article,.survive-sectiion article{
+    width: 400px;
+    margin-right: 140px;
+}
+.donation-section h4,.survive-sectiion h4{
+    padding-top: 50px;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.donation-section p,.survive-sectiion p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.donation-section button,.survive-sectiion button{
+    padding: 13px 30px;
+    background-color: brown;
+    border-style: none ;
+    border-radius: 5px;
+}
+/* survive-section */
+.survive-sectiion{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 220px;
+    margin-right: 250px;
+}
+.updates{
+    margin-top: 50px;
+    margin-left: 400px;
+    padding: 100px 250px;
+    background-color: burlywood;
+    height: 80px;
+    margin-right: 250px;
+    
+}
+.updates input {
+    float: left;
+}
+.submit{
+    border-left: none;
+    padding-top: 13px;
+    padding: 13px 20px;
+    border-style: none;
+    background-color: red;
+    
+}
+.email{
+    padding-left: 20px;
+    padding-right: 90px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-style: none;
+    border-radius: 2px;
+    background-color: antiquewhite;
+}
+/* footer */
+footer{
+    background-color: black;
+    margin-top: 100px;
+    width: 1640px;
+}
+footer h4{
+    font-size: 35px;
+    font-weight: 700;
+    color: brown;
+    padding: 70px 700px;
+}
+footer p{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    padding:0px 720px;
+}
